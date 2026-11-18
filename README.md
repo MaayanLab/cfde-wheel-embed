@@ -58,6 +58,21 @@ For a button in a custom container, pass `{ button: true }` as the second argume
 </script>
 ```
 
+### Run the Button Demo
+
+The [button demo](examples/button.html) mounts the wheel with `{ button: true }`.
+Use **Move wheel to footer** to move the same launcher from the header to the footer.
+For your own embed, place the mount element wherever you want the launcher and position it with your page's CSS.
+
+From the repository root, run:
+
+```bash
+npm ci
+npm start
+```
+
+Open [the button demo](http://localhost:4173/button.html). If Vite prints a different port, use that port with `/button.html`.
+
 ## Develop
 
 ### Install
